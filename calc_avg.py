@@ -1,0 +1,17 @@
+# Find the Average
+
+# Write a function named calculateAverage that takes an array of numbers as input and returns the average (mean) of those numbers.
+
+# Sample Input: [10, 15, 20, 25]
+
+# Sample Output: 17.5
+
+def calculateAverage(arr):
+    avg = 0
+    for i in arr:
+        avg = sum(arr)/len(arr)
+    return avg
+
+arr = [10, 15, 20,25]
+avg = calculateAverage(arr)
+print(avg)
